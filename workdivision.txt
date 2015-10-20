@@ -1,0 +1,15 @@
+work separation for group project
+
+things Scott will do
+
+javascript feature
+image editing/sizing
+homepage
+profile page
+
+
+things Joe will do
+
+bootstrap
+navigation
+similarities and differences
