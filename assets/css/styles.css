@@ -20,4 +20,12 @@ nav {
 #profpics {
   max-width: 75%;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: serif;
 }
