@@ -1,6 +1,7 @@
 
 body {
   background-color: rgba(60, 179, 113, 20);
+  background-image: url("assets/img/background.jpg");
 }
 
 #heading {
@@ -11,8 +12,12 @@ body {
 
 nav {
 	background-color:#19bfe8;
-	
+
 }
 .changeHight{
 	height:100%;
+}
+#profpics {
+  max-width: 75%;
+  height: auto;
 }
