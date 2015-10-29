@@ -1,13 +1,15 @@
 
 body {
-  background-color: rgba(254, 215, 0, 0.2);
-  background-image: url(".../assets/img/background.png");
-  background-repeat: repeat;
+  background-color: rgba(39,55,121, .25);
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #heading {
   font-family: sans-serif;
-  color: white;
+  color: rgba(39,55,121, 1));
 
 }
 
@@ -15,14 +17,13 @@ nav {
 	background-color:#19bfe8;
 
 }
-.changeHight{
-	height:100%;
-}
 #profpics {
   max-width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+  height: auto;
 }
 
 h1 {
@@ -33,4 +34,70 @@ h1 {
 
 #goodBad {
 
+}
+#homepics {
+  background-color:#082445;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:  15px;
+}
+#homepicsrow {
+  border-radius: 25px;
+}
+#headingindex {
+    background-color: #082445;
+    width: 600px;
+    padding: 25px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'Lobster';
+}
+#keystone {
+  font-family: 'Lobster';
+}
+h3 {
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  text-shadow: 2px 2px #082445;
+}
+h5 {
+  font-size: 25px;
+  color: white;
+}
+#homeblurb {
+  margin-bottom: 15px;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+.footer {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #082445;
+}
+#footercenter {
+	padding-top: auto;
+	padding-bottom: auto;
 }
