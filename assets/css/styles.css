@@ -13,9 +13,8 @@ body {
 
 }
 
-nav {
-	background-color:#19bfe8;
-
+#navcolor {
+	background-color: #082445;
 }
 #profpics {
   max-width: 75%;
@@ -25,19 +24,11 @@ nav {
   display: block;
   height: auto;
 }
-
 h1 {
   font-size: 50px;
   text-align: center;
   font-family: serif;
 }
-
-#goodBad {
-
-}
-
-
-
 #homepics {
   background-color:#082445;
   padding-bottom: 25px;
@@ -62,11 +53,11 @@ h1 {
 #keystone {
   font-family: 'Lobster';
 }
-h3 {
+
+h1 {
   font-size: 50px;
   text-align: center;
-  font-family: sans-serif;
-  color: white;
+  font-family: serif;
 }
 h2 {
   font-size: 50px;
@@ -74,6 +65,19 @@ h2 {
   font-family: sans-serif;
   color: white;
   text-shadow: 2px 2px #082445;
+}
+h3 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Lobster';
+  text-shadow: 4px 4px #04083c;
+  color: white;
+}
+h4 {
+  font-size: 45px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
 }
 h5 {
   font-size: 25px;
