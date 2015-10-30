@@ -18,6 +18,10 @@ body {
   color: white !important;
   border-color: white;
 }
+.innernav {
+  background-color: blue;
+  color: white;
+}
 #profpics {
   max-width: 75%;
   height: auto;
@@ -63,6 +67,10 @@ h1 {
     color: white;
     font-family: 'Lobster';
     overflow: auto;
+}
+#keystone {
+  font-family: 'Lobster';
+  color: white;
 }
 
 
