@@ -170,3 +170,7 @@ textarea {
   display: block;
   height: auto;
 }
+
+.profileBoxHeight{
+  overflow: auto;
+}
