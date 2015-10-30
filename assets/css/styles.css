@@ -12,7 +12,7 @@ body {
   color: rgba(39,55,121, 1));
 
 }
-
+/* -------navbar styles------ */
 .navcolor {
 	background-color: #082445 !important;
   color: white !important;
@@ -64,9 +64,7 @@ h1 {
     font-family: 'Lobster';
     overflow: auto;
 }
-#keystone {
-  font-family: 'Lobster';
-}
+
 
 h1 {
   font-size: 50px;
