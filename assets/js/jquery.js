@@ -11,5 +11,10 @@ $(window).resize(function() {
 	}
 });
 
+$(document).ready(function(){
+    $(".fadeIn").hide().fadeIn(3000);
+    
+});
+
 
 

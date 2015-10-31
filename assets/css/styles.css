@@ -30,6 +30,12 @@ body {
   display: block;
   height: auto;
 }
+
+.displayNone{
+  display: none;
+}
+
+
 h1 {
   font-size: 50px;
   text-align: center;
