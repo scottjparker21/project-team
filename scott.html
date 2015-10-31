@@ -1,18 +1,19 @@
-
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width.initial-scale=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Scott and Seth's Awesome Site</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 		<script src="assets/js/jquery.js"></script>
 		<script src="assets/js/bootstrap.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-    <nav class="navbar navbar-default">
+
+    <nav class="navbar navbar-default navcolor">
      <div class="container-fluid">
        <!-- Brand and toggle get grouped for better mobile display -->
        <div class="navbar-header">
@@ -22,7 +23,7 @@
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
-         <a class="navbar-brand" href="#">Scott and Seth</a>
+         <a class="navbar-brand" href="#" id="keystone">Keystone Kites</a>
        </div>
 
        <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,8 +31,8 @@
          <ul class="nav navbar-nav">
 
              <li role="presentation" class=""><a href="index.html">Home</a></li>
-             <li role="presentation" class=""><a href="seth.html">Seth's Page</a></li>
-             <li role="presentation" class="active"><a href="#">Scott's Page</a></li>
+             <li role="presentation" class="active"><a href="#">Seth's Page</a></li>
+             <li role="presentation" class=""><a href="scott.html">Scott's Page</a></li>
              <li role="presentation" class=""><a href="sim.html">Similarties Page</a></li>
              <li role="presentation" class=""><a href="contact.html">Contact Page</a></li>
            <li class="dropdown">
@@ -39,7 +40,44 @@
            </li>
          </ul>
 	</div>
-</div>	
-</nav>		
+</div>
+</nav>
+
+       <!-- End navbar - start body content -->
+       <div class="container">
+       <div class="row">
+          <div class="col-lg-12">
+            <img src='assets/img/kite.png' alt='The man, the legend, Scott Parker.' id="profpics"/>
+            <h1 id="headingSethProfile">Scott parker</h1>
+            <br>
+            <h1> "The Artist"</h1>
+            <br>
+          </div>
+      </div>
+      <!-- Heading -->
+      <br>
+      <div class="row" id="">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="homepics">
+              <img class="floatFields" src='assets/img/scottparker.jpg' alt='The man, the legend, Scott Parker.' id="profpics"/>
+        </div><!--col-->
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="homepics">
+              <h5 class="floatFields">Scott has always been making art. Growing up he would make works of art by layering construction paper. Making kites was a simple of transition from paper to fabric.</h5><br><br>
+        </div><!--col-->
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" id="homepics">
+          <img src='assets/img/scottscutpaper.jpg' alt='Some of Scotts early work.' id="profpics"/>
+        </div><!--col-->
+      </div>
+    </br>
+    </div>
+    <footer class="footer">
+          <div class="container">
+            <p class="text-muted">  <div class="row">
+                  <div class = "col-lg-12">
+                      <center><a href="sitemap.html">Site Map</a></center>
+                  </div>
+            </p>
+          </div>
+    </footer>
+
 	</body>
 </html>
