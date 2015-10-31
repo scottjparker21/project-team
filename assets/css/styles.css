@@ -112,6 +112,12 @@ h5 {
 #homeblurb {
   margin-bottom: 15px;
 }
+.lobsterfont {
+  font-family: 'Lobster';
+  font-size: 50px;
+  text-align: center;
+
+}
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -334,4 +340,3 @@ textarea {
     -webkit-background-size: contain;
     background-size: contain;
 }
-
